@@ -13,13 +13,7 @@ const Navigationbar = ({ auth, onClick }) => (
    >
       <Link to="/blog">
          <Navbar.Brand>
-            <img
-               src="https://react-bootstrap.github.io/logo.svg"
-               style={{ height: 30, width: 30 }}
-               className="d-inline-block align-top"
-               alt=""
-            />
-            {" Bloggy "}
+            {" Blog-It "}
          </Navbar.Brand>
       </Link>
       <Nav className="ml-auto">
