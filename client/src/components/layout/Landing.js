@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import mongo from "../../static/mongo.png";
+import photo from "../../static/blog.jpeg"
 import express from "../../static/express.png";
 import react from "../../static/react.png";
 import node from "../../static/node.png";
@@ -16,17 +17,8 @@ const Landing = () => (
          <p className="text-secondary h3"> Blogging Application</p>
       </Row>
       <Row>
-         <Col>
-            <img src={mongo} alt="mongo" className="img-fluid" />
-         </Col>
-         <Col>
-            <img src={express} alt="express" className="img-fluid" />
-         </Col>
-         <Col>
-            <img src={react} alt="react" className="img-fluid" />
-         </Col>
-         <Col>
-            <img src={node} alt="node" className="img-fluid" />
+         <Col className="col-12 col-md-12 col-xs-3">
+            <img src={photo} alt="Home Page" className="img-fluid" />
          </Col>
       </Row>
    </Container>
